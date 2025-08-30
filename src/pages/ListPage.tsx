@@ -10,7 +10,7 @@ const ListPage: React.FC = () => {
   const [items, setItems] = useState<Item[]>([]);
   const [page, setPage] = useState(1);
   const [total, setTotal] = useState(0);
-  const perPage = 15;
+  const perPage = 50;
   const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>('desc');
 
   const [selectedAuthor, setSelectedAuthor] = useState<string>('');
